@@ -4,8 +4,16 @@
     "slug": "Todo-App",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/favicon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true
+    "newArchEnabled": true,
+    "extra": {
+      "eas": {
+        "projectId": "15247544-4712-48d1-bfc4-8ebaaeb700d1"
+      }
+    },
+    "android": {
+      "package": "com.almubarak.TodoApp"
+    }
   }
 }
